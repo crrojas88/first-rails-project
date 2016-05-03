@@ -11,7 +11,7 @@ Make sure that you are using Postgresql for this project. The easiest way to do 
 ```rails new app_name -d postgresql```
 
 ##### Models & Relationships
-Your project must have at least three models that are all associated. You must have a ```has_many - belongs_to relationship```, and ```a has_many, through relationship```. For example: An **Artist** has many **Songs**, and a **Song** belongs to an Artist. An **Artist** has many **Genres**, through **Songs**.
+Your project must have at least three models that are all associated. You must have a ```has_many - belongs_to relationship```, and ```a has_many, through relationship```. For example: An **Artist** has many **Songs**, and a **Song** belongs to an **Artist**. An **Artist** has many **Genres**, through **Songs**.
 
 ##### CRUD/Routing
 
@@ -20,3 +20,11 @@ Your application should follow RESTful conventions, in that, your models should 
 ##### Forms
 
 Your project should include a nested form for your has_many, belongs_to relationship. For example: If I am creating a Song in a form, I should be able to select from a list of Genres that exist already, or create a new one at the same time.
+
+##### Recap
+1 . Postgresql  
+2 . Three models  
+3 . Has Many - Belongs To relationship  
+4 . Has Many, Through relationship  
+5 . CRUD actions for your models  
+6 . Nested form for your **Has_many, belongs to** relationship.  
