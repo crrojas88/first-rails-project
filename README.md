@@ -23,7 +23,7 @@ Your application should have a login functionality that follows Rails Authentica
 
 ##### BONUS: Forms
 
-Your project should include a nested form for your has_many, belongs_to relationship. For example: If I am creating a Song in a form, I should be able to select from a list of Genres that exist already, or create a new one at the same time.
+Your project can include a nested form for your has_many, belongs_to relationship. For example: If I am creating a Song in a form, I should be able to select from a list of Genres that exist already, or create a new one at the same time.
 
 ##### Recap
 1 . Postgresql  
