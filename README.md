@@ -17,7 +17,11 @@ Your project must have at least three models that are all associated. You must h
 
 Your application should follow RESTful conventions, in that, your models should be able to be Created, Updated, Read, and Deleted. New objects should be _posted_ to the create actions, and updating objects should be _put_ to the update action, etc.
 
-##### Forms
+##### Authentication
+
+Your application should have a register/login functionality that follows Rails Authentication practices.
+
+##### BONUS: Forms
 
 Your project should include a nested form for your has_many, belongs_to relationship. For example: If I am creating a Song in a form, I should be able to select from a list of Genres that exist already, or create a new one at the same time.
 
@@ -27,4 +31,5 @@ Your project should include a nested form for your has_many, belongs_to relation
 3 . Has Many - Belongs To relationship  
 4 . Has Many, Through relationship  
 5 . CRUD actions for your models  
-6 . Nested form for your **Has_many, belongs to** relationship.  
+6 . Authentication
+BONUS: Nested form for your **Has_many, belongs to** relationship.  
