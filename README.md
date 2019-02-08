@@ -32,4 +32,5 @@ Your project should include a nested form for your has_many, belongs_to relation
 4 . Has Many, Through relationship  
 5 . CRUD actions for your models  
 6 . Authentication
+
 BONUS: Nested form for your **Has_many, belongs to** relationship.  
